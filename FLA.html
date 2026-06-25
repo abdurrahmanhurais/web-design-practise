@@ -1,0 +1,200 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <style>
+      .hero {
+        background-image: url(imgs/fla-images.png);
+        height: 500px;
+        background-position: center;
+        background-size: cover;
+      }
+      .box {
+        width: 500;
+        height: 250;
+        display: inline-block;
+      }
+      .card {
+        width: 200px;
+        background-color: rgb(248, 212, 158);
+        display: inline-block;
+      }
+    </style>
+  </head>
+  <body class="hero p-3">
+    <header class="text-center">
+      <h2>Future Leaders Acadmey</h2>
+      <div>
+        <nav>
+          <a href="#about">About</a>
+          <a href="#courses">Courses</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </div>
+    </header>
+    <section id="about">
+      <article>
+        <h2>About</h2>
+        <p class="m-3">
+          Future Leaders Academy is a modern learning platform dedicated to
+          empowering students and professionals with job-ready digital skills.
+          We focus on bridging the gap between education and industry by
+          offering practical, career-focused training programs designed for
+          today’s competitive tech world.<br />
+
+          At Future Leaders Academy, we provide hands-on training in Advanced
+          Excel, Basic Excel, Web Design, UI/UX, Python Programming, Java
+          Development, Artificial Intelligence (AI), and many more emerging
+          technologies. Our courses are designed to help learners build
+          real-world skills through projects, assignments, and practical.<br />
+
+          Our mission is simple: to transform learners into future-ready
+          professionals by providing high-quality education, expert mentorship,
+          and industry-relevant skills.
+        </p>
+      </article>
+    </section>
+    <section id="courses">
+      <article>
+        <h2>courses</h2>
+        <p>
+          Future Leaders Academy offers comprehensive IT courses that empower
+          students with in-demand technical skills. From foundational
+          programming to advanced IT concepts, our curriculum is designed to
+          equip learners with the knowledge and expertise needed to thrive in
+          today’s digital world.
+        </p>
+        <ul class="text-light">
+          <li>Web Design</li>
+          <li>Axcel To Advnced Axcel</li>
+          <li>Python</li>
+          <li>Java</li>
+          <li>IT Essentials</li>
+          <li>Master Accounting Pro</li>
+          <li>Data Analytics</li>
+          <li>Zoho Books</li>
+        </ul>
+      </article>
+    </section>
+    <a href="fla-course-card.html" class="btn btn-danger">Explore courses</a>
+    <section>
+      <h2 class="text-light text-center">popular courses</h2>
+      <article class="card">
+        <p class="m-3">
+          <span class="text-danger text-center m-4">Web Design</span> <br />Web
+          Design is the process of creating attractive, responsive, and
+          user-friendly websites. It involves designing layouts, choosing
+          colors, fonts, images, and ensuring websites work smoothly on
+          computers, tablets, and mobile devices. By learning web design,
+          students gain the skills to build modern websites using HTML, CSS,
+          JavaScript, and other design tools, opening up opportunities in
+          freelancing, business, and the IT industry.
+        </p>
+      </article>
+      <article class="card">
+        <p class="m-3">
+          <span class="text-center text-danger m-5">Python</span> <br />Python
+          is a powerful, easy-to-learn programming language used for creating
+          websites, desktop applications, automation tools, data analysis, . Its
+          simple and readable syntax makes it an excellent choice for beginners
+          as well as experienced developers. Python is widely used across
+          industries because of its and extensive library support. It supports
+          object-oriented, procedural, and functional .python is a great first
+          step into programming.
+        </p>
+      </article>
+    </section>
+
+    <section id="contact" class="text-light">
+      <h2 class="text-black">Contact Info</h2>
+      <address class="mx-3 box">
+        <p class="bi bi-geo-alt-fill text-black">
+          Future Leaders Academy <br />
+          Sameena Complex, 2nd Floor, <br />
+
+          Azad nagar 1st Cross, Bhatkal <br />
+
+          Landmark: Opposite Huda Masjid <br />
+          581320
+        </p>
+
+        <p class="text-light">
+          <i class="bi bi-envelope-fill"></i> email address <br />
+          info@flacadmey.in
+        </p>
+        <p class="text-light">
+          <i class="bi bi-telephone-fill"></i> Phone Number <br />
+          +91 88676 16401 <br />
+
+          +91 63662 08531
+        </p>
+      </address>
+    </section>
+    <h2 class="text-center text-black py-3">contact us form</h2>
+    <form
+      class="box text-black"
+      action="https://formspree.io/f/mnjylpab"
+      method="post"
+      class="shadow p-4 rounded-3 mx-auto"
+    >
+      <div class="my-3">
+        <label for="nametextbox" class="form-label fw-bold">Name:</label>
+        <input
+          type="text"
+          name="nametextbox"
+          id="nametextbox"
+          class="form-control"
+          placeholder="enter your full name"
+        />
+      </div>
+      <div class="my-3">
+        <label for="emailtextbox" class="form-label fw-bold">Email:</label>
+        <input
+          type="email"
+          name="emailtextbox"
+          id="emailtextbox"
+          class="form-control"
+          placeholder="enter your email"
+        />
+      </div>
+      <div class="my-3">
+        <label for="subjecttextbox" class="form-label fw-bold">Subject:</label>
+        <input
+          type="subjet"
+          name="subjecttextbox"
+          id="subjectextbox"
+          class="form-control"
+          placeholder="enter subject"
+        />
+      </div>
+      <div class="my-3">
+        <label for="messagetextbox" class="form-label fw-bold">Message:</label>
+        <textarea
+          name="messagetextbox"
+          id="messagetextbox"
+          class="form-control"
+          rows="3"
+        ></textarea>
+      </div>
+      <div class="my-3">
+        <input
+          type="submit"
+          value="Send Message"
+          class="btn btn-primary btn-lg w-100"
+        />
+      </div>
+    </form>
+  </body>
+</html>

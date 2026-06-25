@@ -1,0 +1,40 @@
+h1 {
+    background-color: bisque;
+    text-align: center;
+    border-style: double;
+    border-color:  brown;
+    border-width: 20px;
+    text-transform: uppercase;
+    border-top-left-radius: 80PX;
+    border-bottom-right-radius:80px ;
+}
+h2{
+    color:aquamarine;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-style: dashed;
+    border-color: black;
+    background-color: brown;
+    text-align: center;
+    border-radius: 10px;
+    border-top-left-radius:60px;
+    border-bottom-right-radius: 60px;
+    
+} 
+p  {
+    background-color: rgb(241, 122, 122);
+    border-style: dotted;
+    border-radius: 45px;
+    padding: 15px;
+    margin: 30px;
+    border-bottom-style: double;
+    border-width: 6px;
+}
+h3 {
+    text-transform: uppercase;
+    text-shadow: 5PX 4PX 8PX rgb(241, 122, 122);
+}
+li {
+    text-transform:uppercase ;
+    text-shadow: 10px 6px 5px blueviolet; 
+
+}
